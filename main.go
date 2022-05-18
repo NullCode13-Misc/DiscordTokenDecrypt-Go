@@ -97,7 +97,9 @@ func main(){
 
 	var text = "["
 	for _, val := range s {
+		text += "\""
         text += val
+		text += "\""
 		text += ", "
     }
 	text += "]"
